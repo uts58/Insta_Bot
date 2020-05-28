@@ -113,9 +113,10 @@ class GaryVee:
     def finalize(self):
         print('You gave $' + str(self.price) + ' back to the community.')
         self.browser.close()
-        sys.exit()
+       
 
 
 garyVee = GaryVee(travel_hashtags, travel_comments)
 time.sleep(systemRandom.randint(3, 5))
 garyVee = GaryVee(coding_hashtags, coding_comments)
+sys.exit()
